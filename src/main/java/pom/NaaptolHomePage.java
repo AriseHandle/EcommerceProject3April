@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class NaaptolHomePage {
 	@FindBy (xpath="//a[@id='login-panel-link']")                                private WebElement login;
 	@FindBy (xpath="//a[text()='Track Order']")                                  private WebElement trackOrder;
-	@FindBy (xpath="//div[@id='cate_head']")                                     private WebElement shoopingCategories;
+	@FindBy (xpath="//div[@id='cate_head']")                                     private WebElement shoppingCategories;
 	@FindBy (xpath="//input[@id='header_search_text']")                          private WebElement searchField;
 	@FindBy (xpath="(//a[@href='javascript:autoSuggestion.headerSearch()'])[2]") private WebElement searchButton;
 	@FindBy (xpath="(//a[@id='cart-panel-link'])[2]")                            private WebElement cart;
@@ -28,12 +28,12 @@ public class NaaptolHomePage {
 	public void clickOnTrackOrder() {
 		trackOrder.click();
 	}
-	public void moveToShoopingCategories(WebDriver driver) {
+	public void moveToShoppingCategories(WebDriver driver) {
 		Actions obj=new Actions(driver);
-		obj.moveToElement(shoopingCategories);
+		obj.moveToElement(shoppingCategories);
 		obj.perform();
 	}
-    public void checkShoopingCategoryList(int i) {
+    public void checkShoppingCategoryList(int i) {
     	for(i=1;i<categories.size();++i) {
 			String name=categories.get(i).getText();
 			System.out.println(name);
