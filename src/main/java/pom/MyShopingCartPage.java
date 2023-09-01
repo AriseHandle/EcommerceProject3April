@@ -16,10 +16,10 @@ public class MyShopingCartPage {
 	@FindBy (xpath = "(//a[@onclick='cart.continueShopping()'])[1]") private WebElement continewShopingbutton;
 	@FindBy (xpath = "//a[@class='red_button2']")private List <WebElement> prceedToCheckoutButton;
 	@FindBy (xpath = "//input[@maxlength='1']") private List <WebElement> productQuantity;
-	@FindBy (xpath = "//ul[@id='cartData']/child::li[@class='head_UPrice']") private List <WebElement> productPrice;
-	@FindBy (xpath = "//ul[@id='cartData']/child::li[@class='head_ship']") private List <WebElement> shippingCharge;
-	@FindBy (xpath = "//ul[@id='cartData']/child::li[@class='head_Amount']") private List <WebElement> totalOrderAmmount;
-	@FindBy (xpath = "(//ul[@id='cartTotal']/descendant::span)[3]")private WebElement GiftVoucherDiscountPrice;
+	@FindBy (xpath = "(//li[@class='head_UPrice'])[2]") private List <WebElement> productPrice;
+	@FindBy (xpath = "(//li[@class='head_ship'])[2]") private List <WebElement> shippingCharge;
+	@FindBy (xpath = "(//li[@class='head_Amount'])[2]") private List <WebElement> totalOrderAmmount;
+	@FindBy (xpath = "//span[@id='cvDiscount']")private WebElement GiftVoucherDiscountPrice;
 	@FindBy (xpath = "//a[text()='Remove']") private WebElement removeProductButton; 
 	@FindBy (xpath = "//input[@id='cvName']")private WebElement voucherCode;
 	@FindBy (xpath = "//a[@id='cvApplybtn']")private WebElement applyVoucherButton;
