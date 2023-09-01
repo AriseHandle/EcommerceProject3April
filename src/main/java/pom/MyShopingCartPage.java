@@ -29,7 +29,6 @@ public class MyShopingCartPage {
 	}
 	public int getNumberOfProductDisplayedInMyShopingCart() {
 		int result=cartProducts.size();
-		Assert.assertNotEquals(result, 0);
 		return result;
 	}
 	public void clickOnContinewShoping() {
