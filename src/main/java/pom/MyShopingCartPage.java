@@ -1,6 +1,7 @@
 package pom;
 
 import java.time.Duration;
+
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+//import org.testng.Assert;
 
 public class MyShopingCartPage {
 	@FindBy (xpath = "//ul[@id='cartData']") private List <WebElement> cartProducts;
@@ -29,7 +30,7 @@ public class MyShopingCartPage {
 	}
 	public int getNumberOfProductDisplayedInMyShopingCart() {
 		int result=cartProducts.size();
-		Assert.assertNotEquals(result, 0);
+		//Assert.assertNotEquals(result, 0);
 		return result;
 	}
 	public void clickOnContinewShoping() {

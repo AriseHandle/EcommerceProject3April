@@ -14,9 +14,7 @@ public static WebDriver chrome()  {
 		
 		driver.get("https://www.naaptol.com/");
 		
-		driver.manage().window().maximize();
-		
-		
+		driver.manage().window().maximize();	
 		return driver;
 		
 	}
