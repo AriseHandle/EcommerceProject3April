@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-02T15:45:50 IST" name="Default suite" finished-at="2023-09-02T15:45:56 IST" duration-ms="6210">
+  <suite started-at="2023-09-06T17:40:33 IST" name="Default suite" finished-at="2023-09-06T17:41:20 IST" duration-ms="47079">
     <groups>
     </groups>
-    <test started-at="2023-09-02T15:45:50 IST" name="Default test" finished-at="2023-09-02T15:45:56 IST" duration-ms="6210">
-      <class name="test.ShoppingCategoriesTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.ShoppingCategoriesTest@62379589]" started-at="2023-09-02T15:45:50 IST" name="openBrowser" finished-at="2023-09-02T15:45:55 IST" duration-ms="5010" status="PASS">
+    <test started-at="2023-09-06T17:40:33 IST" name="Default test" finished-at="2023-09-06T17:41:20 IST" duration-ms="47079">
+      <class name="test.CartdetailPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:33 IST" name="openBrowser" finished-at="2023-09-06T17:40:38 IST" duration-ms="5174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="moveToCategory()[pri:0, instance:test.ShoppingCategoriesTest@62379589]" started-at="2023-09-02T15:45:55 IST" name="moveToCategory" finished-at="2023-09-02T15:45:56 IST" duration-ms="1132" status="PASS">
+        <test-method signature="verifyCustomerIsAbleToAddProductToCart()[pri:0, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:38 IST" name="verifyCustomerIsAbleToAddProductToCart" finished-at="2023-09-06T17:40:42 IST" duration-ms="3706" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- moveToCategory -->
-      </class> <!-- test.ShoppingCategoriesTest -->
+        </test-method> <!-- verifyCustomerIsAbleToAddProductToCart -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:42 IST" name="openBrowser" finished-at="2023-09-06T17:40:45 IST" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyCustomerIsAbleToClickContinewShopping()[pri:1, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:45 IST" name="verifyCustomerIsAbleToClickContinewShopping" finished-at="2023-09-06T17:40:48 IST" duration-ms="3239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerIsAbleToClickContinewShopping -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:48 IST" name="openBrowser" finished-at="2023-09-06T17:40:50 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyIfCutomerIsAbleToRemoveProductFromCart()[pri:2, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:50 IST" name="verifyIfCutomerIsAbleToRemoveProductFromCart" finished-at="2023-09-06T17:40:54 IST" duration-ms="3189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfCutomerIsAbleToRemoveProductFromCart -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:54 IST" name="openBrowser" finished-at="2023-09-06T17:40:56 IST" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyIfCustomerIsAbletoProceedToCheckout()[pri:3, instance:test.CartdetailPageTest@30c15d8b]" started-at="2023-09-06T17:40:56 IST" name="verifyIfCustomerIsAbletoProceedToCheckout" finished-at="2023-09-06T17:41:20 IST" duration-ms="24012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfCustomerIsAbletoProceedToCheckout -->
+      </class> <!-- test.CartdetailPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
